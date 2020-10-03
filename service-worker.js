@@ -1,4 +1,4 @@
-const CACHE_NAME = "genosePwa";
+const CACHE_NAME = "genose_rev_1";
 var urlsToCache = [
   "/",
   "/nav.html",
@@ -9,7 +9,28 @@ var urlsToCache = [
   "/pages/product.html",
   "/css/materialize.min.css",
   "/js/materialize.min.js",
-  "/js/nav.js"
+  "/js/app.js",
+  "/manifest.json",
+  "/images/genose_about.jpg",
+  "/images/genose_cara_kerja_detail.jpg",
+  "/images/genose_cara_kerja.jpg",
+  "/images/genose_customer_service.jpg",
+  "/images/icons-192.png",
+  "/images/icons-512.png",
+  "/favicon/apple-icon-57x57.png",
+  "/favicon/apple-icon-60x60.png",
+  "/favicon/apple-icon-72x72.png",
+  "/favicon/apple-icon-76x76.png",
+  "/favicon/apple-icon-114x114.png",
+  "/favicon/apple-icon-120x120.png",
+  "/favicon/apple-icon-144x144.png",
+  "/favicon/apple-icon-152x152.png",
+  "/favicon/apple-icon-180x180.png",
+  "/favicon/android-icon-192x192.png",
+  "/favicon/favicon-32x32.png",
+  "/favicon/favicon-96x96.png",
+  "/favicon/favicon-16x16.png",
+  "/favicon/ms-icon-144x144.png"
 ];
 
 self.addEventListener("install", function(event) {
