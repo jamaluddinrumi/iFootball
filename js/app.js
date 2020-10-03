@@ -1,3 +1,20 @@
+// Register Service Worker
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker
+      .register("/service-worker.js")
+      .then(function () {
+        console.log("Pendaftaran Service Worker berhasil");
+      })
+      .catch(function () {
+        console.log("Pendaftaran Service Worker gagal");
+      });
+  });
+} else {
+  console.log("Service Worker belum didukung browser ini.");
+}
+
+// Navigation
 document.addEventListener("DOMContentLoaded", function () {
   // Activate sidebar nav
   var elems = document.querySelectorAll(".sidenav");
