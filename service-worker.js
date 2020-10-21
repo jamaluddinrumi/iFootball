@@ -1,4 +1,4 @@
-const CACHE_NAME = "genose_rev_2";
+const CACHE_NAME = "ifootball_rev1";
 var urlsToCache = [
   "/",
   "/nav.html",
@@ -32,8 +32,8 @@ var urlsToCache = [
   "/favicon/favicon-16x16.png",
   "/favicon/ms-icon-144x144.png",
   "/css/app.css",
-  "https://fonts.googleapis.com/icon?family=Material+Icons",
-  "https://fonts.gstatic.com/s/materialicons/v55/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2",
+  "//fonts.googleapis.com/icon?family=Material+Icons",
+  "//fonts.gstatic.com/s/materialicons/v55/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2",
 ];
 
 self.addEventListener("install", function (event) {
