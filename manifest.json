@@ -1,7 +1,7 @@
 {
     "name": "GeNose COVID-19 Detector",
     "short_name": "GeNose",
-    "theme_color": "#00796b",
+    "theme_color": "#000000",
     "background_color": "#fefefe",
     "display": "standalone",
     "orientation": "portrait",
